@@ -12,4 +12,4 @@ Feature: Viewer signs up for the newsletter
 			    When I fill in "name" with "John Doe"
 			    And I fill in "email" with "john@doe.com"
 			    And I click "Sign Up!"
-			    Then I should see "Hi there, John Doe. You&#39;ll new receive our email newsletter at john@doe.com"  		
+			    Then I should see "Hi there, John Doe. You'll now receive our email newsletter at john@doe.com"  		

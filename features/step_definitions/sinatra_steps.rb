@@ -7,7 +7,7 @@ Then (/^I should see "([^"]*)"$/) do |text|
 end
 
 Then (/^I should see "([^"]*)" in the selector "([^"]*)"$/) do |text, selector|
-  page.should have_selector selector, content: text
+  page.should have_selector selector, text: text
 end
  
 Then (/^I should see "([^"]*)" in a link$/) do |text|
